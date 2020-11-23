@@ -1,226 +1,509 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <title>Site CSERNAK Fabien</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-
-  <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=640, initial-scale=1, user-scalable=no" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CorsicaHouse</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-  <div class="site-wrap ">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-
-
-    <div class="site-navbar-wrap" >
-
-      <div class="site-navbar site-navbar-target js-sticky-header">
+<body>
+    <nav class="nav">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-6 col-md-4">
-              <h1 class="my-0 site-logo text-light"><a href="index.html">Fabien<span class="text-danger">.</span> </a></h1>
+            <div class="logo">
+                <a href="#">CorsicaHouse</a>
             </div>
-            <div class="col-6 col-md-8">
-              <nav class="site-navigation text-right" role="navigation">
-                <div class="container">
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#aproposTitle">A propos</a></li>
+                    <li><a href="#contactTitle">Localisation</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <img class="welcome" src="assets/img/Welcome_to_corsica2.png" alt="Welcome">
+    <section class="home"></section>
+    <h1 id="portfolioTitle" class="portfolioTitle">Portfolio</h1>
+    <hr class="hrportfolio">
+    <div id="portfolio"></div>
+    <div class="content blocPortfolio portfolioDesktop">
+        <h1>Très belle villa, moderne, calme, mer à pieds, 8 personnes</h1>
+        <p>Belle villa, individuelle, tout confort, moderne, de 130 m2, 3 chambres à coucher, deux salles de douche grande piscine
+            privative de 12 X7, parking à l'intérieur de la propriété, beau jardin privatif, dans quartier calme, vue magnifique
+            sur la montagne à 300 m seulement de la mer ( pas besoin de voiture), décoration soignée, agréable et actuelle,
+            cuisine fonctionnelle et entièrement équipée, villa de plein pieds, grande baies vitrées donnant accès direct
+            sur la grande terrasse et la piscine, meubles de qualité.. y compris à l'extérieur, coin repos avec hamac, espace apéritif.</p>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/Corse_view_pool.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/Corse_view_pool.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
 
-                  <div class="d-inline-block d-lg-block ml-md-0 mr-auto py-3"><a href="#"
-                      class="site-menu-toggle js-menu-toggle text-black">
-                      <span class="icon-menu h3"></span> <span class="menu-text"></span>
-                    </a></div>
+            <figure>
+                <img src="assets/img/vu_piscine.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/vu_piscine.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
 
-                  <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
-                    <li><a href="#home-section" class="nav-link">Home</a></li>
-                    <li><a href="#about-section" class="nav-link">À propos</a></li>
-                    <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                    <li><a href="#cv-section" class="nav-link">Curriculum vitae</a></li>
-                  </ul>
+            <figure>
+                <img src="assets/img/vu_piscine2.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/vu_piscine2.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/BBQ.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Extérieur</h3>
+                    <p class="DescImg">Jardin</p>
+                    <p class="DescImg petit">avec espace de repos (pelouse)</p>
+                    <p class="DescImg">Terrasse ou patio</p>
+                    <p class="DescImg petit">grande terrasse de la maison jusqu'à la piscine</p>
+                    <p class="DescImg">Mobilier de jardin</p>
+                    <a href="assets/img/BBQ.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/hamac.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Extérieur</h3>
+                    <p class="DescImg">Jardin</p>
+                    <p class="DescImg petit">avec espace de repos (pelouse)</p>
+                    <p class="DescImg">Terrasse ou patio</p>
+                    <p class="DescImg petit">grande terrasse de la maison jusqu'à la piscine</p>
+                    <p class="DescImg">Mobilier de jardin</p>
+                    <a href="assets/img/hamac.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/vu_piscine3.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/vu_piscine3.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/table.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Salon</h3>
+                    <p class="DescImg">8 places assises</p>
+                    <p class="DescImg">Table pour manger</p>
+                    <a href="assets/img/table.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/lit.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Chambre</h3>
+                    <p class="DescImg">3 chambres :</p>
+                    <p class="DescImg">2 chambres avec lit 150*200</p>
+                    <p class="DescImg">1 chambre avec 2 lits simple et 1 lit superposé</p>
+                    <a href="assets/img/clit.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/cuisine.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Cuisine</h3>
+                    <ul class="DescImg listeCuisine">
+                        <li>Lave-vaisselle</li>
+                        <li>Four à micro-ondes</li>
+                        <li>Fonds de cuisine</li>
+                        <li>Réfrigérateur</li>
+                        <li>Gril</li>
+                        <li>Vaisselle et couverts</li>
+                        <li>Plaques de cuisson</li>
+                        <li>Cafetière</li>
+                        <li>Four</li>
+                        <li>Grille-pain</li>
+                        <li>Bouilloire</li>
+                    </ul>
+                    <a href="assets/img/cuisine.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>​
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/salon.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Équipements de loisirs</h3>
+                    <p class="DescImg">Télévision</p>
+                    <p class="DescImg">Câble/satellite</p>
+                    <p class="DescImg">Lecteur DVD</p>
+                    <a href="assets/img/salon.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img/Salle_de_bain.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Salle de bain</h3>
+                    <p class="DescImg"><b>Salle de Bain 1</b></p>
+                    <p class="DescImg">Douche</p>
+                    <p class="DescImg"><b>Salle de Bain 2</b></p>
+                    <p class="DescImg">WC, Douche</p>
+                    <a href="assets/img/Salle_de_bain.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>​
+        </div>
+    </div>
+    <div class="content blocPortfolio portfolioMobile">
+        <h1>Très belle villa, moderne, calme, mer à pieds, 8 personnes</h1>
+        <p>Belle villa, individuelle, tout confort, moderne, de 130 m2, 3 chambres à coucher, deux salles de douche grande piscine privative de 12 X7, parking à l'intérieur de la propriété, beau jardin privatif, dans quartier calme, vue magnifique sur la montagne à 300 m seulement de la mer ( pas besoin de voiture), décoration soignée, agréable et actuelle, cuisine fonctionnelle et entièrement équipée, villa de plein pieds, grande baies vitrées donnant accès direct sur la grande terrasse et la piscine, meubles de qualité.. y compris à l'extérieur, coin repos avec hamac, espace apéritif. Merci de prendre connaissance du contrat de location qui nous lie avant de réserver.</p>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/Corse_view_pool.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/Corse_view_pool.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/vu_piscine.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/vu_piscine.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/vu_piscine2.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/vu_piscine2.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img/BBQ.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Extérieur</h3>
+                    <p class="DescImg">Jardin</p>
+                    <p class="DescImg petit">avec espace de repos (pelouse)</p>
+                    <p class="DescImg">Terrasse ou patio</p>
+                    <p class="DescImg petit">grande terrasse de la maison jusqu'à la piscine</p>
+                    <p class="DescImg">Mobilier de jardin</p>
+                    <a href="assets/img/BBQ.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/hamac.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Extérieur</h3>
+                    <p class="DescImg">Jardin</p>
+                    <p class="DescImg petit">avec espace de repos (pelouse)</p>
+                    <p class="DescImg">Terrasse ou patio</p>
+                    <p class="DescImg petit">grande terrasse de la maison jusqu'à la piscine</p>
+                    <p class="DescImg">Mobilier de jardin</p>
+                    <a href="assets/img/hamac.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/vu_piscine3.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Piscine / Spa</h3>
+                    <p class="DescImg">Piscine extérieure</p>
+                    <p class="DescImg">Piscine privée <a class="petit">12 x7</a></p>
+                    <a href="assets/img/vu_piscine3.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/table.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Salon</h3>
+                    <p class="DescImg">8 places assises</p>
+                    <p class="DescImg">Table pour manger</p>
+                    <a href="assets/img/table.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/img/lit.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Chambre</h3>
+                    <p class="DescImg">3 chambres :</p>
+                    <p class="DescImg">2 chambres avec lit 150*200</p>
+                    <p class="DescImg">1 chambre avec 2 lits simple et 1 lit superposé</p>
+                    <a href="assets/img/clit.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>​
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/cuisine.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Cuisine</h3>
+                    <ul class="DescImg listeCuisine">
+                        <li>Lave-vaisselle</li>
+                        <li>Four à micro-ondes</li>
+                        <li>Fonds de cuisine</li>
+                        <li>Réfrigérateur</li>
+                        <li>Gril</li>
+                        <li>Vaisselle et couverts</li>
+                        <li>Plaques de cuisson</li>
+                        <li>Cafetière</li>
+                        <li>Four</li>
+                        <li>Grille-pain</li>
+                        <li>Bouilloire</li>
+                    </ul>
+                    <a href="assets/img/cuisine.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img/salon.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Équipements de loisirs</h3>
+                    <p class="DescImg">Télévision</p>
+                    <p class="DescImg">Câble/satellite</p>
+                    <p class="DescImg">Lecteur DVD</p>
+                    <a href="assets/img/salon.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>​
+        </div>
+        <div class="portfolio">
+            <figure>
+                <img src="assets/img/Salle_de_bain.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3 class="TitleImg">Salle de bain</h3>
+                    <p class="DescImg"><b>Salle de Bain 1</b></p>
+                    <p class="DescImg">Douche</p>
+                    <p class="DescImg"><b>Salle de Bain 2</b></p>
+                    <p class="DescImg">WC, Douche</p>
+                    <a href="assets/img/Salle_de_bain.jpg" target="_blank" class="viewFullSize">Voir l'image</a>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <h1 id="aproposTitle" class="aproposTitle">A propos</h1>
+    <hr class="hrapropos">
+    <div class="aproposGlobal aproposDesktop">
+        <div id="apropos" class="apropos content">
+            <div>
+                <a href="assets/img/maison.jpg" target="_blank"><img src="assets/img/maison.jpg" alt="Piscine"></a>
+            </div>
+            <div class="piscine">
+                <h1 class="titlePropos">Maison</h1>
+                <p><i class="fas fa-home"></i> Villa -130m²</p>
+                <p><i class="fas fa-users"></i> 8 Couchage</p>
+                <p><i class="fas fa-bed"></i> 3 Chambres</p>
+                <p><i class="fas fa-shower"></i> 2 Salles de bain</p>
+                <p><i class="fas fa-moon"></i> Séjour minimum : 5–7 Nuitées</p>
+                <hr class="hrPiscine">
+                <br />
+                <p>La villa idéal pour passer de bonnes vacances</p>
+            </div>
+        </div>
+        <div id="apropos" class="apropos content">
+            <div class="piscine">
+                <h1 class="titlePropos">Équipements</h1>
+                <p><i class="fas fa-baby-carriage"></i> Enfants bienvenus</p>
+                <p><i class="fas fa-fan"></i> Climatisation</p>
+                <p><i class="fas fa-parking"></i> Parking</p>
+                <p><i class="fas fa-tv"></i> Télévision</p>
+                <p><i class="fas fa-satellite-dish"></i> Satellite ou câble</p>
+                <p><i class="fas fa-swimming-pool"></i> Piscine</p>
+                <p><i class="fas fa-fire-alt"></i> Chauffage</p>
+                <p><i class="fas fa-wifi"></i> Internet</p>
+                <p><i class="fas fa-wheelchair"></i> Accessible</p>
+            </div>
+            <div>
+                <a href="assets/img/nightHouse.jpg" target="_blank"><img src="assets/img/nightHouse.jpg" alt="Piscine"></a>
+            </div>
+        </div>
+        <div id="apropos" class="apropos content">
+            <div>
+                <a href="assets/img/hamac.jpg" target="_blank"><img src="assets/img/hamac.jpg" alt="Piscine"></a>
+            </div>
+            <div class="piscine">
+                <h1>Exterieur</h1>
+                <p>Jardin</p>
+                <p class="petit">avec espace de repos (pelouse)</p>
+                <p>Terrasse ou patio</p>
+                <p class="petit">grande terrasse de la maison jusqu'à la piscine</p>
+                <p>Mobilier de jardin</p>
+                <hr class="hrPiscine hrExterieur">
+                <h1>Sécurité</h1>
+                <p>Trousse de premiers secours</p>
+                <p class="petit">elle se trouve dans la buanderie sur l'étagère</p>
+                <p>Éclairage extérieur</p>
+                <p>Détecteur de fumée</p>
+            </div>
+        </div>
+    </div>
+    <div class="aproposGlobal aproposMobile">
+            <div>
+                <a href="assets/img/maison.jpg" target="_blank"><img class="aproposPhoto" src="assets/img/maison.jpg" alt="Piscine"></a>
+            </div>
+            <div class="piscine">
+                <h1 class="titlePropos">Maison</h1>
+                <p><i class="fas fa-home"></i> Villa -130m²</p>
+                <p><i class="fas fa-users"></i> 8 Couchage</p>
+                <p><i class="fas fa-bed"></i> 3 Chambres</p>
+                <p><i class="fas fa-shower"></i> 2 Salles de bain</p>
+                <p><i class="fas fa-moon"></i> Séjour minimum : 5–7 Nuitées</p>
+                <hr class="hrPiscine">
+                <br />
+                <p>La villa idéal pour passer de bonnes vacances</p>
+            </div>
+            <div>
+                <a href="assets/img/nightHouse.jpg" target="_blank"><img class="aproposPhoto" src="assets/img/nightHouse.jpg" alt="Piscine"></a>
+            </div>
+            <div class="piscine">
+                <h1 class="titlePropos">Équipements</h1>
+                <p><i class="fas fa-baby-carriage"></i> Enfants bienvenus</p>
+                <p><i class="fas fa-fan"></i> Climatisation</p>
+                <p><i class="fas fa-parking"></i> Parking</p>
+                <p><i class="fas fa-tv"></i> Télévision</p>
+                <p><i class="fas fa-satellite-dish"></i> Satellite ou câble</p>
+                <p><i class="fas fa-swimming-pool"></i> Piscine</p>
+                <p><i class="fas fa-fire-alt"></i> Chauffage</p>
+                <p><i class="fas fa-wifi"></i> Internet</p>
+                <p><i class="fas fa-wheelchair"></i> Accessible</p>
+            </div>
+            <div>
+            <div>
+                <a href="assets/img/hamac.jpg" target="_blank"><img class="aproposPhoto" src="assets/img/hamac.jpg" alt="Piscine"></a>
+            </div>
+            <div class="piscine">
+                <h1>Exterieur</h1>
+                <p>Jardin</p>
+                <p class="petit">avec espace de repos (pelouse)</p>
+                <p>Terrasse ou patio</p>
+                <p class="petit">grande terrasse de la maison jusqu'à la piscine</p>
+                <p>Mobilier de jardin</p>
+                <hr class="hrPiscine">
+                <h1>Sécurité</h1>
+                <p>Trousse de premiers secours</p>
+                <p class="petit">elle se trouve dans la buanderie sur l'étagère</p>
+                <p>Éclairage extérieur</p>
+                <p>Détecteur de fumée</p>
+            </div>
+    </div>
+    </div>
+    <h1 id="contactTitle" class="contactTitle">Localisation</h1>
+    <hr class="hrcontact">
+    <div id="contact" class="contact content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d3165.008316554976!2d9.36885491979307!3d41.676517081632674!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d41.6760454!2d9.3679933!5e1!3m2!1sfr!2sfr!4v1605979259207!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        
+        <p class="localisationText">A proximite de porto vecchio: 15 km, de sainte lucie de porto Vecchio : 5 km, pinarello, 700 m , bonifacio 45 km , plage: 0,3 km, commerces à 3 km, via notte ( plus grande discothèque outdoor à 20 mn), accrobranche, location de vélo, de bateau, sports nautique, club de voile, de plongée, jet ski, poisson frais le matin au port de pinarello, ...</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer footerDesktop">
+        <div class="blocFooter">
+            <div class="partFooter">
+                <h5 class="footerTitle">Localisation</h5>
+                <div class="blocLocalisation">
+                    <p><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;&nbsp;45 rue des oliviers</p>
+                    <p><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;&nbsp;&nbsp;07.12.34.56.78</p>
+                    <p><i class="fas fa-envelope"></i> &nbsp;&nbsp;Jean-Guy@gmail.com</p>
                 </div>
-              </nav>
             </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- END .site-navbar-wrap -->
-
-    <div class="site-blocks-cover" id="home-section">
-      <div class="img-wrap">
-        <div class="owl-carousel slide-one-item hero-slider">
-          <div class="slide overlay">
-            <img src="images/car1.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="slide overlay">
-            <img src="images/car2.jpg" alt="Image" class="img-fluid">
-          </div>
-          <div class="slide overlay">
-            <img src="images/car3.jpg" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 align-self-center">
-            <div class="intro">
-              <div class="heading">
-                <h1>Développeur Web</h1>
-              </div>
-              <div class="text">
-                <p class="sub-text mb-5">Etudiant a l'EPSI Arras, je suis a la recherche d'une alternance pour la rentrée Septembre 2019.</p>
-              </div>
+            <hr class="">
+            <div class="partFooter">
+                <h5 class="footerTitle">Retrouvez-nous</h5>
+                <div class="blocAbout">
+                    <a href="https://www.abritel.fr/location-vacances/p1003580?adultsCount=1">
+                        <img class="abritel" src="assets/img/logo-abritel.png" alt="abritel">
+                    </a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- END .site-blocks-cover -->
-
-    <div class="site-section" id="about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5">
-            <img src="images/me2.jpg" alt="Image" class="img-me" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-          </div>
-          <div class="col-lg-5 ml-auto section-title">
-            <span class="sub-title mb-2 d-block">À propos</span>
-            <h2 class="title text-danger mb-3">Compétence</h2>
-            <p class="mb-4">Au cours de nombreux projet j'ai developpé des compétences dans le domaine du WEB comme :
-            </p>
-
-
-            <div class="d-flex">
-              <ul class="list-unstyled ul-check success mr-5">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>JS</li>
-                <li>JQUERRY</li>
-              </ul>
+            <hr class="">
+            <div class="partFooter">
+                <h5 class="footerTitle">A propos</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nulla quaerat laudantium
+                    perspiciatis, adipisci doloribus dolore. Placeat explicabo, asperiores facere quaerat dolorum nulla
+                    aliquam magni earum saepe nihil optio. At!</p>
             </div>
-          </div>
         </div>
-      </div>
-    </div> <!-- .END site-section -->
-
-
-    <div class="site-section bg-light" id="portfolio-section">
-      <div class="container">
-        <div class="row mb-5 ">
-          <div class="col-md-8 section-title text-center mx-auto">
-            <span class="sub-title mb-2 d-block">Projet récent</span>
-            <h2 class="title text-danger mb-3">voici un aperçu des sites sur lesquels j'ai travaillé</h2>
-          </div>
+        <div class="copyright">
+            <em>© 2020 Copyright All right reserved /<a class="mention_legales" href="mention_legales.html">Mention legales</a> </em>
         </div>
-        <div class="row mb-5">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="images/simpl1.png" alt="Image" class="img-fluid" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-            <img src="images/simpl2.png" alt="Image" class="img-fluid" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Simpléduc</h3>
-            <p class="mb-4"> Simpléduc est une entreprise fictif qui nous sert d'entraînement a la réalisation de
-              logiciels éducatifs pour d’autres entreprises.
-              Afin de gérer au mieux les ressources humaines et de facturer ses clients, Simpléduc avait besoin de
-              repenser son système d’information.</p>
-            <p class="mb-5"><strong class="text-black">Role:</strong> Gestion des outils, back-end, Design.</p>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-            <img src="images/inov1.png" alt="Image" class="img-fluid"  onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-            <img src="images/inov2.png" alt="Image" class="img-fluid"  onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-            <img src="images/inov3.png" alt="Image" class="img-fluid"  onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
-            <h3> Innov’Anglais</h3>
-            <p class="mb-4">Innov’Anglais est une entreprise fictif qui nous sert d'entraînement a la réalisation d'un
-              site
-              pour apprendre l'anglais sous forme de quiz disponible qu'une seul fois par jour.</p>
-            <p class="mb-5"><strong class="text-black">Role:</strong>Web, Full-stack, Design.</p>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-              <img src="images/ks1.png" alt="Image" class="img-fluid" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-              <img src="images/ks2.png" alt="Image" class="img-fluid" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-              <img src="images/ks3.png" alt="Image" class="img-fluid" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>KustomSofa</h3>
-            <p class="mb-4">KustomSofa est une S.A.R.L qui qui restore des chaises,canapés,banquettes.
-              Création d'un site vitrine avec des formulaires d'ajout de photos
-            </p>
-            <p class="mb-5"><strong class="text-black">Role:</strong>Web, Full-stack, Design.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="site-section" id="cv-section" >
-      <div class="container">
-          <div class="col-md-8 section-title text-center mx-auto">
-              <h2 class="title text-danger mb-3">CURRICULUM VITAE</h2>
-              <hr>
+    </footer>
+    <!-- Footer Mobile-->
+    <footer class="footer footerMobile">
+        <div class="blocFooter">
+            <div class="partFooter">
+                <h5 class="footerTitle">Localisation</h5>
+                <div class="blocLocalisation">
+                    <p><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;&nbsp;45 rue des oliviers</p>
+                    <p><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;&nbsp;&nbsp;07.12.34.56.78</p>
+                    <p><i class="fas fa-envelope"></i> &nbsp;&nbsp;Jean-Guy@gmail.com</p>
+                </div>
             </div>
-        <img src="images/CV-Csernak-Fabien.png" alt="Image" class="img-fluid" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+1920+', height='+1080);" />
-        <a class="row" href="https://www.linkedin.com/in/fabien-csernak-998b85180/"> <img src="images/in.png" alt="Image" class="img-fluid ml-4 mr-2" style="height:30px;"/>Fabien CSERNAK</a>
-        
-      </div>
-    </div>
-  </div>
-  <!-- END .site-section -->
-  <!-- Footer -->
-  <footer class="page-footer font-small bg-secondary text-light">
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 ">© 2019 All right reserved:
-      <a>CSERNAK Fabien</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-  </div>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/stickyfill.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/main.js"></script>
-
-
+            <hr class="">
+            <div class="partFooter">
+                <h5 class="footerTitle">Retrouvez-nous</h5>
+                <div class="blocAbout">
+                    <a href="https://www.abritel.fr/location-vacances/p1003580?adultsCount=1">
+                        <img class="abritel" src="assets/img/logo-abritel.png" alt="Abritel">
+                    </a>
+                </div>
+            </div>
+            <hr class="">
+            <div class="partFooter">
+                <h5 class="footerTitle">A propos</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nulla quaerat laudantium
+                    perspiciatis, adipisci doloribus dolore. Placeat explicabo, asperiores facere quaerat dolorum nulla
+                    aliquam magni earum saepe nihil optio. At!</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <em>© 2020 Copyright All right reserved /<a class="mention_legales" href="mention_legales.html"> Mention
+                    legales</a> </em>
+        </div>
+    </footer>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+<script src="script/main.js"></script>
 </html>
