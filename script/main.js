@@ -10,4 +10,7 @@ $(document).ready(function(){
     $(".navTrigger").on('click',function(){
         $('.navlinks').toggle();
     });
+    $('.portfolioDesk').hover( function(){
+       $(this).find(".portfolioDeskText").toggle();
+    });
   });

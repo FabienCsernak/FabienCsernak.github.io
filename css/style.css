@@ -658,6 +658,38 @@ iframe{
     margin-top: 32px;
 }
 
+.portfolioDesk{
+    height: 16em;
+    margin: auto;
+    word-break: break-word;
+    width: 300px;
+}
+
+.portfolioGrid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin: 47px auto;
+    justify-content: center;
+    color: #FFF;
+}
+
+.portfolioDeskText{
+    background-color: rgb(14 14 14 / 80%);
+    position: relative;
+    height: 16em;
+    margin-top: -405px;
+    display: none;
+}
+
+.dixP{
+    margin-left: 20px;
+}
+
+.TitleDeskImg {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 1400px) {
     .aproposMobile{
         display: block;
