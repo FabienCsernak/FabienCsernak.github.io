@@ -423,6 +423,11 @@ footer{
 
 .mention_legales{
     text-decoration: none;
+    color: #fff;
+}
+
+.mention_legales:hover{
+    text-decoration: underline;
 }
 
 .abritel{
@@ -454,9 +459,10 @@ hr{
     color: #fff;
     font-size: 15px;
     text-align: center;
-    display: block;
     padding: 21px 0;
     background-color: rgb(38, 38, 39);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 figure {
@@ -534,6 +540,7 @@ h3 {
     left: 0px;
     display: flex;
     top: 363px;
+    box-shadow: none !important;
 }
 
 .apropos{
@@ -690,6 +697,124 @@ iframe{
     margin-left: 10px;
 }
 
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .fa-chevron-up,.fa-moon,.fa-sun{
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .fa-moon{
+    color: #fff;
+  }
+  .fa-sun{
+      color: #101010;
+  }
+  
+  .dayNight {
+    display: inline-block;
+    background-color: #101010;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 84px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .dayNight::after {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  .dayNight:hover {
+    background-color:  #ffffff;
+  }
+  .dayNight:active {
+    background-color: #555;
+  }
+  .dayNight.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .sun{
+    background-color: #fff;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 370px;
+  }
+
+  .emCopy{
+      margin: auto;
+  }
+
+  .lang{
+    display: grid;
+    grid-template-columns: 44px 24px 44px;
+    margin: auto;
+  }
+
+  .changeLang{
+    margin: auto;
+  }
+
+  .FR:hover,.EN:hover{
+    text-decoration: underline;
+  }
+
+  .FR,.EN{
+    color: #fff;
+    text-decoration: none;
+  }
+
 @media screen and (max-width: 1400px) {
     .aproposMobile{
         display: block;
@@ -753,6 +878,10 @@ iframe{
 @media screen and (max-width: 768px) {
     .footerMobile{
         display: block;
+    }
+    .copyright{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: none;
     }
     .footerDesktop{
         display: none;
