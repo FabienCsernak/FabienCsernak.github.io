@@ -815,6 +815,16 @@ iframe{
     text-decoration: none;
   }
 
+  .buttonReverse{
+      padding: 15px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: #101010;
+      margin-top: 50px;
+      border-style: none;
+      text-decoration: none;
+  }
+
 @media screen and (max-width: 1400px) {
     .aproposMobile{
         display: block;
